@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5B2C1FA1DEC56B2009F24F0 /* TFMessageActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C1F91DEC56B2009F24F0 /* TFMessageActivityItemProvider.m */; };
+		A5B2C2001DEC6348009F24F0 /* TFImageActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C1FF1DEC6348009F24F0 /* TFImageActivityItemProvider.m */; };
 		B33C22851D441713006BCD98 /* GenericShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C22841D441713006BCD98 /* GenericShare.m */; };
 		B33C22891D4419E8006BCD98 /* WhatsAppShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C22881D4419E8006BCD98 /* WhatsAppShare.m */; };
 		B33C228B1D442577006BCD98 /* EmailShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C228A1D442576006BCD98 /* EmailShare.m */; };
@@ -28,6 +30,10 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B2C1F81DEC56B2009F24F0 /* TFMessageActivityItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMessageActivityItemProvider.h; sourceTree = "<group>"; };
+		A5B2C1F91DEC56B2009F24F0 /* TFMessageActivityItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMessageActivityItemProvider.m; sourceTree = "<group>"; };
+		A5B2C1FE1DEC6348009F24F0 /* TFImageActivityItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFImageActivityItemProvider.h; sourceTree = "<group>"; };
+		A5B2C1FF1DEC6348009F24F0 /* TFImageActivityItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFImageActivityItemProvider.m; sourceTree = "<group>"; };
 		B33C22841D441713006BCD98 /* GenericShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericShare.m; sourceTree = "<group>"; };
 		B33C22861D441723006BCD98 /* GenericShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericShare.h; sourceTree = "<group>"; };
 		B33C22871D4419DA006BCD98 /* WhatsAppShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsAppShare.h; sourceTree = "<group>"; };
@@ -80,6 +86,10 @@
 				B33C228C1D442583006BCD98 /* EmailShare.h */,
 				B3EEE48D1D4844E7008422B6 /* GooglePlusShare.m */,
 				B3EEE48F1D4844F4008422B6 /* GooglePlusShare.h */,
+				A5B2C1F81DEC56B2009F24F0 /* TFMessageActivityItemProvider.h */,
+				A5B2C1F91DEC56B2009F24F0 /* TFMessageActivityItemProvider.m */,
+				A5B2C1FE1DEC6348009F24F0 /* TFImageActivityItemProvider.h */,
+				A5B2C1FF1DEC6348009F24F0 /* TFImageActivityItemProvider.m */,
 			);
 			name = social;
 			sourceTree = "<group>";
@@ -140,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B2C1FA1DEC56B2009F24F0 /* TFMessageActivityItemProvider.m in Sources */,
 				B3EEE48E1D4844E7008422B6 /* GooglePlusShare.m in Sources */,
+				A5B2C2001DEC6348009F24F0 /* TFImageActivityItemProvider.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNShare.m in Sources */,
 				B33C22891D4419E8006BCD98 /* WhatsAppShare.m in Sources */,
 				B33C228B1D442577006BCD98 /* EmailShare.m in Sources */,
