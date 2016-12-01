@@ -27,7 +27,7 @@
     return self;
 }
 
-- (id)activityViewController:(UIActivityViewController *)activityViewController itemForActivityType:(UIActivityType)activityType {
+- (id)activityViewController:(UIActivityViewController *)activityViewController itemForActivityType:(NSString *)activityType {
     if ([activityType.lowercaseString containsString:@"whatsapp"]) {
         return @"";
     }
@@ -39,7 +39,7 @@
     return self.placeholderItem;
 }
 
-- (NSString *)activityViewController:(UIActivityViewController *)activityViewController subjectForActivityType:(UIActivityType)activityType {
+- (NSString *)activityViewController:(UIActivityViewController *)activityViewController subjectForActivityType:(NSString *)activityType {
     NSString* bundleDisplayName = [[[NSBundle mainBundle] localizedInfoDictionary] objectForKey:@"CFBundleDisplayName"];
     return [NSString stringWithFormat:@"%@ - message value: %@", bundleDisplayName, self.message];
 }

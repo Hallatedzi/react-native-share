@@ -27,7 +27,7 @@
     return self;
 }
 
-- (id)activityViewController:(UIActivityViewController *)activityViewController itemForActivityType:(UIActivityType)activityType {
+- (id)activityViewController:(UIActivityViewController *)activityViewController itemForActivityType:(NSString *)activityType {
     return self.base64EncodedData;
 }
 
@@ -35,7 +35,7 @@
     return self.placeholderItem;
 }
 
-- (NSString *)activityViewController:(UIActivityViewController *)activityViewController subjectForActivityType:(UIActivityType)activityType {
+- (NSString *)activityViewController:(UIActivityViewController *)activityViewController subjectForActivityType:(NSString *)activityType {
     NSString* bundleDisplayName = [[[NSBundle mainBundle] localizedInfoDictionary] objectForKey:@"CFBundleDisplayName"];
     return [NSString stringWithFormat:@"%@ - image data", bundleDisplayName];
 }
