@@ -31,7 +31,9 @@
     if ([activityType.lowercaseString containsString:@"whatsapp"]) {
         return @"";
     }
-
+    if ([activityType.lowercaseString containsString:@"facebook"]) {
+        return @"";
+    }
     return self.message;
 }
 
